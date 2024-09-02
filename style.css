@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&display=swap');
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    font-family: "Exo", sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 50px;
+    padding: 10px;
+    filter: drop-shadow(2px 2px 3px  rgba(151, 254, 223, 0.9)) ;
+}
+
+
+.header {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    border-bottom: 1px solid red;
+    padding: 0.9rem 0;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+header nav {
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Chakra Petch", system-ui;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: rgba(151, 254, 223, 1);
+    margin-right: 2.5rem; 
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 15px  rgba(151, 254, 223, 0.9);
+   
+}
+
+img.exo{
+    filter: drop-shadow(2px 2px 5px  rgba(255, 213, 4, 0.4)) ;
+}
+
+img.exo2{
+    filter: drop-shadow(2px 2px 5px  rgba(0, 221, 255, 0.4)) ;
+}
+
+img.exo3{
+    filter: drop-shadow(2px 2px 5px  rgba(0, 221, 255, 0.4)) ;
+}
+
+img.exo4{
+    filter: drop-shadow(2px 2px 5px  rgba(250, 146, 0, 0.4)) ;
+}
+
+img.exo5{
+    filter: drop-shadow(2px 2px 5px  rgba(0, 221, 255, 0.4)) ;
+}
+
+img.planet{
+    filter: drop-shadow(2px 2px 10px  rgba(3, 213, 192, 0.4)) ;
+}
+img.kuu{
+    filter: drop-shadow(2px 2px 10px  rgba(255, 255, 255, 0.6)) ;
+}
+
+.hamburger a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: rgba(115, 115, 115, 0.7);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: -00px;
+}
+
+.bg-img {
+    position: absolute;
+    width: 115.6%; 
+    top: 25.6%; 
+    left: 50.39%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.exo2 {
+    position: absolute;
+    z-index: 2;
+    width: 66.4%;
+    top: 56.9%; 
+    left: 61.7%; 
+    transform: translate(-50%, -50%);
+}
+
+.exo {
+    position: absolute;
+    z-index: 10;
+    width: 7.8%; 
+    top: 44.4%; 
+    left: 46.9%; 
+    transform: translate(-50%, -50%);
+}
+
+.exo3 {
+    position: absolute;
+    z-index: 4;
+    width: 23.0%; 
+    top: 44.4%; 
+    left: 57.0%; 
+    transform: translate(-50%, -50%);
+}
+
+.exo5 {
+    position: absolute;
+    z-index: 5;
+    width: 39.1%; 
+    top: 43.1%; 
+    left: 75.8%; 
+    transform: translate(-50%, -50%);
+}
+
+.exo4 {
+    position: absolute;
+    z-index: 6;
+    width: 54.7%; 
+    top: 37.5%; 
+    left: 57.8%; 
+    transform: translate(-50%, -50%);
+}
+
+.planet {
+    position: absolute;
+    z-index: 8;
+    width: 23.4%; 
+    top: 48.1%; 
+    left: 18.7%; 
+    transform: translate(-50%, -50%);
+}
+
+.kuu {
+    position: absolute;
+    z-index: 5;
+    width: 39.1%; 
+    top: 43.1%; 
+    left: 64.1%; 
+    transform: translate(-50%, -50%);
+}
+
+.galaxy {
+    position: absolute;
+    z-index: 2;
+    width: 60.8%; 
+    top: 43.1%; 
+    left: 69.2%; 
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+}
+
+.galaxy2 {
+    position: absolute;
+    z-index: 3;
+    width: 17.3%; 
+    top: 58.1%; 
+    left: 37.7%; 
+    transform: translateX(-1);
+    opacity: 0.6;
+}
+
+.text {
+    position: absolute;
+    z-index: 19;
+    top: 40%; 
+    left: 30%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.text h2 {
+    font-weight: 100;
+    font-size: 6.5rem;
+    z-index: 8;
+    font-family: "Chakra Petch", system-ui;
+   color: #b0c2ff;
+   text-shadow: 2px 2px 25px  rgba(255, 39, 39, 0.9);
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 0.88;
+    z-index: 4;
+    font-family: "Exo", sans-serif;
+    color: rgb(240, 255, 215);
+    text-shadow: 2px 2px 25px  rgba(255, 0, 0, 0.9);
+}
+
+.vinjentti {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.9));
+}
+
+.parallax {
+    pointer-events: none;
+    transition: 0.45s cubic-bezier(.2, .49, .32, .99);
+}
+
+
+h3{
+    font-family: "Exo", sans-serif;
+    padding: 10px;
+    text-shadow: 2px 2px 25px  rgba(255, 0, 0, 0.9);
+}
+
+@media (max-width: 1100px) {
+
+    .text h1{
+        font-size: 5.8rem;
+    }
+    
+    .text h2{
+        font-size: 4.8rem;
+    }
+    
+    .bg-img{
+        width: initial;
+        height: 184.96%;
+    }
+    .exo2{
+        width: initial;
+        height: 66.24%;
+    }
+    .galaxy{
+        width: initial;
+        height: 81.28%;
+    }
+    .exo3{
+        width: initial;
+        height: 36.8%;
+    }
+    .kuu{
+        width: initial;
+        height: 42.56%;
+        left: 65.0%;
+    }
+    .exo5{
+        width: initial;
+        height: 42.56%;
+    }
+    .planet{
+        width: initial;
+        height: 27.44%;
+    }
+
+    .exo4{
+        width: initial;
+        height: 27.52%;
+        
+    }
+    .exo{
+        width: initial;
+        height: 10.48%;
+        left: 56%;
+        top: 54.5%;
+    }
+    .galaxy2{
+        width: initial;
+        height: 33.68%;
+    }
+
+}
+@media (max-width: 925px) {
+
+    .text h1{
+        font-size: 5em;
+        line-height: 1.1;
+    }
+    
+    .text h2{
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    .logo{
+        width: 75px;
+    }
+
+    header ul a{
+        font-size: 1.73rem;
+        padding: 0 0.9rem;
+    }
+    .bg-img{
+        width: initial;
+        height: 184.96%;
+    }
+    .exo2{
+        width: initial;
+        height: 66.24%;
+    }
+    .galaxy{
+        width: initial;
+        height: 81.28%;
+    }
+    .exo3{
+        width: initial;
+        height: 36.8%;
+    }
+    .kuu{
+        width: initial;
+        height: 42.56%;
+        left: 47.0%;
+    }
+    .exo5{
+        width: initial;
+        height: 42.56%;
+    }
+    .planet{
+        width: initial;
+        height: 27.44%;
+    }
+
+    .exo4{
+        width: initial;
+        height: 27.52%;
+        
+    }
+    .exo{
+        width: initial;
+        height: 10.48%;
+        left: 56%;
+        top: 54.5%;
+    }
+    .galaxy2{
+        width: initial;
+        height: 33.68%;
+    }
+    
+}
+
+
+@media (max-width: 725px) {
+
+    .text h1{
+        font-size: 5em;
+        line-height: 1.1;
+    }
+    
+    .text h2{
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    .logo{
+        width: 75px;
+    }
+
+    header ul a{
+        font-size: 0.73rem;
+        padding: 0 0.9rem;
+    }
+
+.bg-img{
+    width: initial;
+    height: 184.96%;
+}
+.exo2{
+    width: initial;
+    height: 46.24%;
+}
+.galaxy{
+    width: initial;
+    height: 81.28%;
+}
+.exo3{
+    width: initial;
+    height: 26.8%;
+}
+.kuu{
+    width: initial;
+    height: 32.56%;
+    left: 47.0%;
+}
+.exo5{
+    width: initial;
+    height: 32.56%;
+}
+.planet{
+    width: initial;
+    height: 17.44%;
+}
+
+.exo4{
+    width: initial;
+    height: 17.52%;
+    
+}
+.exo{
+    width: initial;
+    height: 7.48%;
+    left: 56%;
+    top: 54.5%;
+}
+.galaxy2{
+    width: initial;
+    height: 33.68%;
+}
+
+}
+/*
+@media (max-width: 725px) {
+
+    .text h1{
+        font-size: 5em;
+        line-height: 1.1;
+    }
+    
+    .text h2{
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    .logo{
+        width: 75px;
+    }
+
+    header ul a{
+        font-size: 0.73rem;
+        padding: 0 0.9rem;
+    }
+    .bg-img{
+        width: initial;
+        height: 184.96%;
+    }
+    .exo2{
+        width: initial;
+        height: 106.24%;
+    }
+    .galaxy{
+        width: initial;
+        height: 81.28%;
+    }
+    .exo3{
+        width: initial;
+        height: 36.8%;
+    }
+    .kuu{
+        width: initial;
+        height: 62.56%;
+    }
+    .exo5{
+        width: initial;
+        height: 62.56%;
+    }
+    .planet{
+        width: initial;
+        height: 37.44%;
+    }
+
+    .exo4{
+        width: initial;
+        height: 87.52%;
+    }
+    .exo{
+        width: initial;
+        height: 12.48%;
+    }
+    .galaxy2{
+        width: initial;
+        height: 43.68%;
+    }
+    
+}
+*/
+
+@media (max-width: 520px) {
+
+    .text h1{
+        font-size: 3.3rem;
+    }
+    
+    .text h2{
+        font-size: 2.6rem;
+    }
+    
+}
+
+
+.content-section {
+    padding: 50px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+
+.text-content h2 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 15px  rgba(108, 112, 97, 0.9);
+    font-family: "Chakra Petch", system-ui;
+    color: rgba(194, 183, 252, 0.9);
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: "Chakra Petch", system-ui;
+}
+
+
+.textbox{
+    background-color: #000000;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    
+}
+
+.text-content{  
+      margin: 50px 0;
+      
+}
+
+.space-hr {
+    width: 60%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid rgba(151, 254, 223, 0.6);
+    box-shadow: 10px 5px 15px rgba(72, 255, 16, 0.5);
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 7%;
+
+}
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .content-box {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 10px;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin-top: 10%;
+    }
+    
+    .text-box h2{
+        color: #ffee04;
+        text-shadow: 0 2px 14px rgba(255, 230, 102, 0.9);
+        font-size: 3rem;
+        padding: 20px;
+        font-family: "Chakra Petch", system-ui;
+    
+    }
+    .text-box {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-left: 3px solid rgba(238, 178, 40, 0.842);
+        margin-top: 5%;
+    }
+    
+   p{
+    color: rgb(232, 255, 247);
+   }
+
+    .box1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: rgba(59, 66, 10, 0.5);
+        color: #e8ffbc;
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px double rgba(255, 191, 28, 0.4);
+        margin: 20px auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; 
+        justify-content: center; 
+    }
+    
+  
+    .responsive-img {
+        max-width: 400px;
+        height: auto;
+        border-radius: 10px;
+        filter: drop-shadow(0px 0px 10px rgba(223, 245, 24, 0.4));
+      
+    }
+    
+ 
+    .col {
+        flex: 1;
+        min-width: 300px; 
+    }
+    
+
+    .image-container {
+        position: relative; 
+        display: inline-block; 
+    }
+    
+
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(145, 5, 5, 0.0); 
+        opacity: 0; 
+        color: #fff; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        transition: opacity 0.3s ease; /
+        
+    }
+    
+    
+    .image-container:hover .overlay {
+        opacity: 1; 
+    }
+    
+    
+    .text-box1 {
+        padding: 20px;
+        text-align: center;
+        font-size: 1rem; 
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-left: 3px solid rgba(238, 178, 40, 0.542);
+    
+    }
+
+    /*PIKKUKUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT*/
+
+
+.image-container1 {
+    position: relative;
+    display: inline-block;
+    margin: 0 40px; 
+}
+
+
+.responsive-img1 {
+    display: block; 
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px rgba(223, 245, 24, 0.3));
+    transition: transform 0.3s ease;
+}
+
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    opacity: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+
+.text-box1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.image-link:hover .overlay1 {
+    opacity: 1;
+  
+}
+
+.image-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
