@@ -612,7 +612,7 @@ h3{
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        border-left: 3px solid rgba(238, 178, 40, 0.842);
+        border-left: 3px solid rgba(238, 178, 40, 0.42);
         margin-top: 5%;
     }
     
