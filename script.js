@@ -52,20 +52,20 @@ let xValue = 0,
 
 
 function updateParallaxEffect(e) {
-    xValue = (e.clientX - window.innerWidth / 2) * 0.2; 
-    yValue = (e.clientY - window.innerHeight / 2) * 0.2; 
-    rotateDegree = (xValue / (window.innerWidth / 2)) * 10; 
+    xValue = (e.clientX - window.innerWidth / 2) * 0.6; 
+    yValue = (e.clientY - window.innerHeight / 2) * 0.6; 
+    rotateDegree = (xValue / (window.innerWidth / 2)) * 20; 
 
     parallax_el.forEach(el => {
-        let speedx = parseFloat(el.dataset.speedx) || 0.05;
-        let speedy = parseFloat(el.dataset.speedy) || 0.05;
-        let speedz = parseFloat(el.dataset.speedz) || 0.05;
+        let speedx = parseFloat(el.dataset.speedx) || 0.1;
+        let speedy = parseFloat(el.dataset.speedy) || 0.1;
+        let speedz = parseFloat(el.dataset.speedz) || 0.1;
         let distance = parseFloat(el.dataset.distance) || 0;
 
         let elLeft = parseFloat(getComputedStyle(el).left);
         let isInLeft = elLeft < window.innerWidth / 2 ? 1 : -1;
 
-        let zValue = (e.clientX - elLeft) * isInLeft * 0.02; 
+        let zValue = (e.clientX - elLeft) * isInLeft * 0.04; 
 
         el.style.transform = `
             perspective(2300px) 
